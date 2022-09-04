@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: bisque;
+}
+
+.main-header {
+    
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;  
+}
+
+ul {
+    width: 600px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 26px;
+    gap: 30px;
+}
+
+li {
+    width: 300px;
+    border: solid black 3px;
+    background-color: rgb(126, 51, 51);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+}
+
+ul a {
+    text-decoration: none;   
+    color: white;
+}
+
+
+.main-content {
+    display: flex;
+    width: 100%;
+    background-color: rgba(208, 172, 147, 0.696);
+    background-image: url(https://dsdsuzy1jtjfw.cloudfront.net/wp-content/uploads/2021/11/Igreja-Matriz-de-Santo-Antonio-Tiradentes-Minas-Gerais-Credito-editorial-bnetto-shutterstock_1858611901.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.curiosity-cards {
+    display: flex;
+}
+
+.curiosity-cards div{
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.806);
+    border-radius: 12px;
+    margin: 15px 80px;
+    padding: 20px;
+    width: 350px;
+    height: 250px;
+}
+
+.curiosity-cards div p {
+    padding-top: 30px;
+    text-align:justify;
+}
+
+.main-content .curiosidades h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.curiosity-cards a {
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.video {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.video h1 {
+    padding-bottom: 25px;
+}
+
+
+.main-footer {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 08px;
+}
+
+.main-footer .texto-footer {
+    height: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.main-footer .participantes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main-footer .participantes a {
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.main-footer .participantes img {
+    width: 110px;
+    border: solid rgb(224, 208, 208) 3px;
+    border-radius: 50%;
+    padding: 1.5px;
+}
+
+.main-footer .participantes .foto-perfil {
+    justify-content: center;
+    align-items: center;
+}
