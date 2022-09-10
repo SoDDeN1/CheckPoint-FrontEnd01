@@ -1,6 +1,5 @@
 /* 1280px e 425px */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500;700&display=swap');
 
 * {
@@ -12,7 +11,10 @@
 
 body {
     background-color: bisque;
-    height: 1280px;
+    background-image: url(../imgs/tiradentes800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .main-header {
@@ -54,11 +56,6 @@ ul a {
 .main-content {
     display: flex;
     width: 100%;
-    background-color: rgba(208, 172, 147, 0.696);
-    background-image: url(../imgs/tiradentes800.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     flex-direction: column;
     align-items: center;
 }
@@ -83,7 +80,8 @@ ul a {
     text-align:justify;
 }
 
-.main-content .curiosidades h1 {
+.main-content h1 {
+    font-size: 28px;
     color: white;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -97,14 +95,18 @@ ul a {
     padding: 5px;
 }
 
-.video {
-    text-align: center;
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 50px;
     border:black;
 }
 
 .video h1 {
+    font-size: 28px;
+    text-align: center;
     padding-bottom: 25px;
     color: white;
 }

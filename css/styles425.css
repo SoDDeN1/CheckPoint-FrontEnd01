@@ -1,28 +1,35 @@
-@media (max-width: 425px) {
+/* 425x926 */
 
-.main-header {
-    width: 100%;
-    flex-direction: column;
-    height: 400px;
-}
+@media (max-width: 430px) {
 
-.main-header .menu-navegation ul {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Mono', monospace;
+    }
 
-.main-content .curiosidades {
-    flex-direction: column;
-}
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
 
-.curiosity-cards {
-    flex-direction: column;
-    padding: 25px;
-}
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 
-.video {
+    .curiosity-cards {
+        display: flex;
+        flex-direction: column;
+    
+    } 
 
-}
+    video {
+        height: 230px;
+        width: 350px;
+    }
 
 }
