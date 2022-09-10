@@ -1,0 +1,28 @@
+@media (max-width: 425px) {
+
+.main-header {
+    width: 100%;
+    flex-direction: column;
+    height: 400px;
+}
+
+.main-header .menu-navegation ul {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.main-content .curiosidades {
+    flex-direction: column;
+}
+
+.curiosity-cards {
+    flex-direction: column;
+    padding: 25px;
+}
+
+.video {
+
+}
+
+}
