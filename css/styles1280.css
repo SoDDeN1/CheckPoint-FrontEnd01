@@ -10,7 +10,6 @@ body {
 }
 
 .main-header {
-    
     display: flex;
     width: 100%;
     background-color: gray;
@@ -49,85 +48,13 @@ ul a {
     align-items: center;
 }
 
-.curiosity-cards {
-    display: flex;
+.banner {
+    width: 100%;
 }
 
 .curiosity-cards div{
-    text-align: center;
-    font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.806);
-    border-radius: 12px;
-    margin: 20px 40px;
+    margin: 20px 35px;
     padding: 20px;
-    width: 350px;
-    height: 350px;
-}
-
-.curiosity-cards div p {
-    padding-top: 30px;
-    text-align:justify;
-}
-
-.main-content h1 {
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.curiosity-cards a {
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.video {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    border:black;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.video h1 {
-    text-align: center;
-    padding-bottom: 25px;
-    color: white;
-}
-
-
-.main-footer {
-    width: 100%;
-    height: 200px;
-    background-color: gray;
-}
-
-address {
-    font-size: 17px;
-    text-align: center;
-    padding: 10px;
-}
-
-.main-footer .participantes {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    text-align: center;
-    gap: 100px;
-}
-
-.main-footer .participantes img {
-    width: 110px;
-    border: solid rgb(224, 208, 208) 3px;
-    border-radius: 50%;
-    padding: 1.5px;
 }
 
 }

@@ -4,20 +4,38 @@
 
     .main-header {
         display: flex;
+        position: static;
         flex-direction: column;
+        width: 100vh;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-navegation .list-itens {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        justify-content: center;
+
+    }
+
+    ul li {
+        width: 117px;
+        justify-content:center;
+    }
+
+    ul li a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 0px;
     }
 
     .banner {
         background-repeat: no-repeat;
-    }
-
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        
     }
 
     .curiosity-cards {
