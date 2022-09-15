@@ -19,7 +19,7 @@ body {
 }
 
 ul {
-    width: 600px;
+    width: 60vh;
     display: flex;
     list-style: none;
     justify-content: space-around;
